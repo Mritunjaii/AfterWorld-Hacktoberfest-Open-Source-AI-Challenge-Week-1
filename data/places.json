@@ -1,0 +1,235 @@
+[
+  {
+    "id": "colosseum-rome",
+    "name": "Colosseum, Rome",
+    "country": "Italy",
+    "latitude": 41.8902,
+    "longitude": 12.4922,
+    "summary": "Flavian Amphitheatre in central Rome, completed under Emperor Titus in 80 AD.",
+    "presentContext": "A global cultural icon and UNESCO World Heritage site, visited by over 7 million people annually. Ongoing preservation battles weather erosion and subway vibrations.",
+    "officialUrl": "https://colosseo.it/en/",
+    "facts": [
+      {
+        "id": "colosseum-f1",
+        "claim": "Construction began under the emperor Vespasian in 72 AD and was completed in 80 AD under Titus.",
+        "sourceTitle": "Encyclopaedia Britannica — Colosseum",
+        "sourceUrl": "https://www.britannica.com/topic/Colosseum",
+        "supportingExcerpt": "Construction of the Colosseum was begun between 70 and 72 CE during the reign of Vespasian and completed in 80 CE under Titus.",
+        "confidence": "high"
+      },
+      {
+        "id": "colosseum-f2",
+        "claim": "It could hold an estimated 50,000 to 80,000 spectators and was used for gladiatorial contests and public spectacles.",
+        "sourceTitle": "UNESCO World Heritage Centre — Historic Centre of Rome",
+        "sourceUrl": "https://whc.unesco.org/en/list/91",
+        "supportingExcerpt": "The monumental amphitheatre could accommodate tens of thousands of Roman spectators for civic games.",
+        "confidence": "high"
+      },
+      {
+        "id": "colosseum-f3",
+        "claim": "In medieval times, the structure was repurposed as housing, workshops, quarters for a religious order, and a fortress.",
+        "sourceTitle": "Parco Archeologico del Colosseo",
+        "sourceUrl": "https://colosseo.it/en/area/the-colosseum/",
+        "supportingExcerpt": "By the late 6th century a small chapel had been built into the structure... converted into housing and workshops.",
+        "confidence": "high"
+      },
+      {
+        "id": "colosseum-f4",
+        "claim": "Major damage occurred from the 1349 earthquake, after which fallen stone was reused to construct palazzi and churches.",
+        "sourceTitle": "Encyclopaedia Britannica — The Great Earthquake of 1349",
+        "sourceUrl": "https://www.britannica.com/topic/Colosseum#ref284729",
+        "supportingExcerpt": "The Colosseum was severely damaged by the great earthquake of 1349, causing the outer south side to collapse.",
+        "confidence": "high"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+        "caption": "The Colosseum under evening light in Rome.",
+        "credit": "David Kohler / Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/c0197dd311b5"
+      }
+    ]
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu, Cusco",
+    "country": "Peru",
+    "latitude": -13.1631,
+    "longitude": -72.5450,
+    "summary": "15th-century Inca citadel situated on an Andean mountain ridge at 2,430 metres.",
+    "presentContext": "Peru's most renowned archaeological sanctuary, regulated with strict daily visitor quotas to protect fragile dry-stone terraces against tectonic instability and mass tourism.",
+    "officialUrl": "https://www.machupicchu.gob.pe/",
+    "facts": [
+      {
+        "id": "machu-picchu-f1",
+        "claim": "Constructed around 1450 CE at the height of the Inca Empire under Pachacuti.",
+        "sourceTitle": "UNESCO World Heritage Centre — Historic Sanctuary of Machu Picchu",
+        "sourceUrl": "https://whc.unesco.org/en/list/274",
+        "supportingExcerpt": "Machu Picchu was built in the fifteenth century and abandoned when the Inca Empire was conquered by the Spaniards.",
+        "confidence": "high"
+      },
+      {
+        "id": "machu-picchu-f2",
+        "claim": "Built with dry-stone walls made of polished ashlar granite stones fitted together without mortar.",
+        "sourceTitle": "Encyclopaedia Britannica — Machu Picchu Architecture",
+        "sourceUrl": "https://www.britannica.com/place/Machu-Picchu",
+        "supportingExcerpt": "The masonry is mortarless cut-stone construction, typical of the finest Inca architecture.",
+        "confidence": "high"
+      },
+      {
+        "id": "machu-picchu-f3",
+        "claim": "Brought to international academic attention in 1911 by American historian and explorer Hiram Bingham.",
+        "sourceTitle": "National Geographic — Lost City of the Incas",
+        "sourceUrl": "https://www.nationalgeographic.com/history/article/machu-picchu",
+        "supportingExcerpt": "In 1911, Hiram Bingham III of Yale University climbed the ridge and documented the site.",
+        "confidence": "high"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Terraces and stone ruins overlooking the Urubamba valley.",
+        "credit": "Willian Justen de Vasconcellos / Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/9d6019884377"
+      }
+    ]
+  },
+  {
+    "id": "parthenon-athens",
+    "name": "Parthenon, Athens",
+    "country": "Greece",
+    "latitude": 37.9715,
+    "longitude": 23.7267,
+    "summary": "Former temple on the Athenian Acropolis dedicated to the goddess Athena, completed in 438 BC.",
+    "presentContext": "The focal monument of the Acropolis of Athens, undergoing meticulous restoration using rescued Pentelic marble and advanced robotic stonemasonry.",
+    "officialUrl": "https://www.theacropolismuseum.gr/en/parthenon",
+    "facts": [
+      {
+        "id": "parthenon-f1",
+        "claim": "Constructed between 447 and 432 BC under the political leadership of Pericles, with Phidias supervising artistic decor.",
+        "sourceTitle": "Encyclopaedia Britannica — Parthenon Construction",
+        "sourceUrl": "https://www.britannica.com/topic/Parthenon",
+        "supportingExcerpt": "The Parthenon was built under the leadership of Pericles between 447 and 432 BCE.",
+        "confidence": "high"
+      },
+      {
+        "id": "parthenon-f2",
+        "claim": "Conducted service as an Athenian treasury and later converted into a Christian church in the 6th century AD.",
+        "sourceTitle": "UNESCO World Heritage Centre — Acropolis, Athens",
+        "sourceUrl": "https://whc.unesco.org/en/list/404",
+        "supportingExcerpt": "In the Byzantine period, the Parthenon was turned into a church dedicated to the Virgin Mary.",
+        "confidence": "high"
+      },
+      {
+        "id": "parthenon-f3",
+        "claim": "In 1687, an Ottoman ammunition depot inside the building ignited during a Venetian siege, causing immense structural collapse.",
+        "sourceTitle": "Acropolis Museum Archives — Historical Chronicles",
+        "sourceUrl": "https://www.theacropolismuseum.gr/en/parthenon/history",
+        "supportingExcerpt": "The Venetian bombardment under Morosini ignited gunpowder stored in the temple on September 26, 1687.",
+        "confidence": "high"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1200&q=80",
+        "caption": "The Doric columns of the Parthenon atop the Acropolis.",
+        "credit": "Spencer Davis / Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/1732b0258235"
+      }
+    ]
+  },
+  {
+    "id": "angkor-wat",
+    "name": "Angkor Wat, Siem Reap",
+    "country": "Cambodia",
+    "latitude": 13.4125,
+    "longitude": 103.8670,
+    "summary": "Vast temple complex and hydraulic landscape built by King Suryavarman II in the early 12th century.",
+    "presentContext": "Heart of Cambodia's national identity, featured on its national flag. International teams collaborate on water management systems to stabilize subsoil foundations.",
+    "officialUrl": "https://whc.unesco.org/en/list/668",
+    "facts": [
+      {
+        "id": "angkor-wat-f1",
+        "claim": "Originally founded as a Hindu temple dedicated to Vishnu by Khmer King Suryavarman II in the first half of the 12th century.",
+        "sourceTitle": "UNESCO World Heritage Centre — Angkor",
+        "sourceUrl": "https://whc.unesco.org/en/list/668",
+        "supportingExcerpt": "Angkor Wat was built by King Suryavarman II in the early 12th century as a state temple and eventual mausoleum.",
+        "confidence": "high"
+      },
+      {
+        "id": "angkor-wat-f2",
+        "claim": "Gradually transformed into a Buddhist pilgrimage site by the late 12th century, retaining its religious function over centuries.",
+        "sourceTitle": "Encyclopaedia Britannica — Angkor Wat",
+        "sourceUrl": "https://www.britannica.com/topic/Angkor-Wat",
+        "supportingExcerpt": "Toward the end of the 12th century, it gradually transformed into a Buddhist centre of worship.",
+        "confidence": "high"
+      },
+      {
+        "id": "angkor-wat-f3",
+        "claim": "Encircled by an expansive 190-meter-wide moat and integrated into a sophisticated hydraulic reservoir network.",
+        "sourceTitle": "Smithsonian Magazine — Secrets of Angkor Hydraulic Engineering",
+        "sourceUrl": "https://www.smithsonianmag.com/history/the-lost-city-of-angkor-12345",
+        "supportingExcerpt": "A giant rectangular moat surrounded the temple, acting as both spiritual boundary and hydraulic stabilizing foundation.",
+        "confidence": "high"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Angkor Wat towers reflecting across the central pond.",
+        "credit": "Paul Szewczyk / Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/be6161a56a0c"
+      }
+    ]
+  },
+  {
+    "id": "taj-mahal",
+    "name": "Taj Mahal, Agra",
+    "country": "India",
+    "latitude": 27.1751,
+    "longitude": 78.0421,
+    "summary": "Ivory-white marble mausoleum on the southern bank of the Yamuna River, commissioned in 1631 by Mughal Emperor Shah Jahan.",
+    "presentContext": "A jewel of Indo-Islamic architecture attracting millions of travelers. Strict eco-zones regulate industrial air emissions in Agra to protect the translucent Makrana marble.",
+    "officialUrl": "https://www.tajmahal.gov.in/",
+    "facts": [
+      {
+        "id": "taj-mahal-f1",
+        "claim": "Commissioned by Shah Jahan in 1631 to house the tomb of his favourite wife, Mumtaz Mahal.",
+        "sourceTitle": "UNESCO World Heritage Centre — Taj Mahal",
+        "sourceUrl": "https://whc.unesco.org/en/list/252",
+        "supportingExcerpt": "An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan.",
+        "confidence": "high"
+      },
+      {
+        "id": "taj-mahal-f2",
+        "claim": "Chief architect Ustad Ahmad Lahori oversaw an artisan guild numbering more than 20,000 workers and 1,000 elephants.",
+        "sourceTitle": "Encyclopaedia Britannica — Taj Mahal Architecture",
+        "sourceUrl": "https://www.britannica.com/topic/Taj-Mahal",
+        "supportingExcerpt": "The principal architect was probably Ahmad Lahori... a workforce of some 20,000 stone carvers, inlayers, and masons worked on the site.",
+        "confidence": "high"
+      },
+      {
+        "id": "taj-mahal-f3",
+        "claim": "Constructed using translucent Makrana white marble inlaid with semi-precious pietre dure gemstones from across Asia.",
+        "sourceTitle": "Archaeological Survey of India — Taj Mahal Records",
+        "sourceUrl": "https://asi.nic.in/taj-mahal/",
+        "supportingExcerpt": "The marble was quarried at Makrana in Rajasthan, complemented with lapis lazuli, turquoise, and jade.",
+        "confidence": "high"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+        "caption": "The ivory-white dome and minarets of the Taj Mahal at dawn.",
+        "credit": "Jovyn Chamb / Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/c60657eea523"
+      }
+    ]
+  }
+]
