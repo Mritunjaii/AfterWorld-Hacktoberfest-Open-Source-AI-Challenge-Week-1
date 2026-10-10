@@ -141,15 +141,37 @@ export async function GET(request: NextRequest) {
             const hitLat = parseFloat(bestHit.lat);
             const hitLon = parseFloat(bestHit.lon);
             const displayNameParts = bestHit.display_name.split(',');
-            // Construct clean, specific name using first 2 parts of display_name if needed
-            const primaryName = displayNameParts.length > 1 && displayNameParts[0].length < 35 && displayNameParts[1].trim().length < 25
-              ? `${displayNameParts[0].trim()}, ${displayNameParts[1].trim()}`
-              : displayNameParts[0].trim();
+            const rawNominatimName = (bestHit.name || displayNameParts[0]).trim();
             const country = displayNameParts[displayNameParts.length - 1].trim();
 
-            const wikiQuery = `${primaryName} ${query}`.trim();
-            const wikiData = await searchWikipediaFacts(primaryName || query);
-            const resolvedName = wikiData.title || primaryName || query;
+            // Prioritize the specific place/landmark first:
+            // 1. User's explicit query (e.g. "Rumi Darwaza")
+            // 2. Specific Nominatim landmark name (e.g. "Rumi Gate")
+            // 3. First segment of display name
+            // 4. Fallback to larger city/region only if the specific place cannot be documented
+            const searchCandidates = [
+              query,
+              rawNominatimName,
+              displayNameParts[0].trim(),
+              displayNameParts.length > 3 ? displayNameParts[3].trim() : '', // city fallback (e.g. "Lucknow")
+            ].filter((c, i, arr) => c && c.length >= 2 && arr.indexOf(c) === i);
+
+            let wikiData = { title: '', summary: '', facts: [] as any[], sourceUrl: '', officialUrl: undefined as string | undefined, presentContext: '' };
+            let resolvedName = query;
+
+            for (const candidate of searchCandidates) {
+              const res = await searchWikipediaFacts(candidate);
+              if (res.summary && res.facts && res.facts.length > 0) {
+                wikiData = res;
+                resolvedName = res.title || candidate;
+                break;
+              }
+            }
+
+            if (!resolvedName) {
+              resolvedName = rawNominatimName || query;
+            }
+
             const slug = resolvedName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
             const discoveredPlace: Place = {
